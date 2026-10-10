@@ -182,5 +182,5 @@ wrote or changed, not to prose you didn't touch.
 
 ## The short version
 
-> Reproduce it. Run it. Prove it. Fix the cause, not the symptom.
-> When you're wrong, write down the principle not the story.
+- Reproduce it. Run it. Prove it. Fix the cause, not the symptom.
+- When you're wrong, write down the principle not the story.
