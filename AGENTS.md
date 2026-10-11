@@ -84,13 +84,17 @@ Never report something as working without running it. "Done" means: relevant tes
 typecheck clean, and for user-facing flows exercised end to end (e.g. Playwright for web
 flows). If tests fail or a step was skipped, say so plainly with the output.
 
+- Prefer inspection and focused manual checks for small changes.
+- Do not write tests for reversible, low-impact changes that mirror the implementation. If you do choose to verify your work with tests, make sure that the tests are meaningful and necessary to verify implementation.
+- Run tests appropriate to the change and complete required checks. Once those pass, broaden or repeat testing only when new changes, failures, or unresolved concerns justify it; otherwise, continue toward completing the task.
+
 ## When you are corrected
 
 This is the highest-value moment in the session. Do not just apply the fix.
 
 1. Apply the fix.
 2. Ask yourself what *general rule* this correction implies.
-3. Write down the general rule — in this file, or in a skill.
+3. Write down the general rule in this file, or in a skill.
 4. **Strip the incident out of the rule.** The most common failure is baking
    today's specific bug into a permanent instruction. That makes the rule
    overfit and useless next time. Write the principle, delete the story.
@@ -163,12 +167,6 @@ comments, and the closing reply. It strips AI tells (em dashes, filler,
 hedging, chatbot phrases, puffery, bold-label lists) and replaces fancy
 words with plain ones and passive voice with active. Apply it to text you
 wrote or changed, not to prose you didn't touch.
-
-## Verification
-
-- Prefer inspection and focused manual checks for small changes.
-- Do not write tests for reversible, low-impact changes that mirror the implementation. If you do choose to verify your work with tests, make sure that the tests are meaningful and necessary to verify implementation.
-- Run tests appropriate to the change and complete required checks. Once those pass, broaden or repeat testing only when new changes, failures, or unresolved concerns justify it; otherwise, continue toward completing the task.
 
 ## Communication
 
