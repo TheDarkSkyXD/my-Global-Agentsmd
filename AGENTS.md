@@ -117,7 +117,7 @@ wrong, not that you need a third try. Report what you tried and what happened.
 ## When you're the one being asked for a status
 
 Say what is done, what is in progress, and what is blocked. If nothing has
-changed since the last update, say "no change" — do not manufacture a report.
+changed since the last update, say "no change" do not manufacture a report.
 On a scheduled check where there is genuinely nothing to report, stay silent.
 
 ## A note from Human
