@@ -4,6 +4,7 @@ I wanted to share some of my preferences here so we can be more aligned as we wo
 
 ## Coding preferences - general
 - Keep things simple. Channel "yagni" energy unless told otherwise. 
+- Do not create or use Git worktrees. Work in the existing repository checkout.
 - Typesafety is useful, take advantage of it. 
 - Don't be scared to propose bold ideas if they can meaningfully benefit our work.
 - Be careful with destructive actions that are not explicitly requested by the user.
