@@ -176,6 +176,7 @@ wrote or changed, not to prose you didn't touch.
 
 ## Additional tips
 
+- Do not edit `AGENTS.md` unless the user explicitly asks you to.
 - Don't verify with browsers or computer use unless the user explicitly agrees or requests it.
 - Security is important, but should not be over-indexed on, especially for dev mode/maintainer-only features.
 
